@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div {
+    width: 200px;
+    height: 200px;
+    background-color: cornflowerblue;
+    padding: 10px;
+/*arredonda os cantos */
+    border-radius: 10px;
+    border: 3px solid midnightblue;
+    /* eixo vertical - eixo horizontal */
+    margin: 10px 0;
+}
+.conteiner {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: midnightblue;
+    border-radius: 0;
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.menu {
+    width: 50;
+    height: 50px;
+    background: darkslateblue;
+    text-align: center;
+}

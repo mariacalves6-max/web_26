@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+</head>
+<body>
+<h1>Lainona livros</h1>
+<form action="" method="post">
+    <label>
+        Nome do livro:
+        <input name="form_nome" type="text" placeholder="Digite o nome do livro" required>
+    </label>
+    <br>
+    <br>
+    <label>
+        Descrição:
+        <textarea name="form_descrição" rows="10" cols="50"></textarea required>
+    </label>
+
+    <br>
+    <br>
+    <label>
+        Categoria:
+        <select name="form_categoria" required>
+            <option value="terror">Terror</option>
+            <option value="romance">Romance</option>
+            <option value="aventura">Aventura</option>
+            <option value="fiççao cientifica">Ficção Cientifica</option>
+        </select>
+
+        <br>
+        <br>
+
+    <label>
+        País de origem:
+        <select name="form_pais_de_origem" required>
+            <option value="brasil">Brasil</option>
+            <option value="eua">EUA</option>
+            <option value="inglaterra">Inglaterra</option>
+            <option value="alemanha">Alemanha</option>
+            <option value="japao">Japão</option>
+        </select>
+
+        <br>
+        <br>
+
+    <label>
+        Preço:
+        <input name="form_preço" type="number" required>
+    </label>
+
+
+    <br>
+    <br>
+
+    <label>
+        Data de fabricação:
+        <input name="form_data_fabricacao" type="date" required>
+    </label>
+
+    <br>
+    <br>
+    <button type="submit">Salvar</button>
+    <button type="reset">Limpar</button>
+</body>
+</html>

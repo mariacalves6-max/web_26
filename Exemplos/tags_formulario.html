@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+</head>
+<body>
+
+<h1>Exemplos de formularios</h1>
+<!-- o metodo deve ser post-->
+<form action="" method="get">
+<!--Exemplo 1 de um label e input-->
+    <label>
+        Nome:
+<!-- o name deve começar com form_-->
+        <input name="form_nome" type="text" placeholder="Digite seu nome" required>
+    </label>
+    <br>
+    <br>
+
+<!--Exemplo 2 de um label e input-->
+    <label for="input2">Sobrenome:</label>
+    <input id="input2" name="form_sobrenome" type="text" placeholder="Ex:Silva" required>
+
+    <br>
+    <br>
+
+    <label>
+        Idade
+        <input name="form_idade" type="number" required>
+    </label>
+
+
+    <br>
+    <br>
+
+    <label>
+        Data de Nascimento;
+        <input name="form_data_nascimento" type="date" required>
+    </label>
+
+    <br>
+    <br>
+
+    <label>
+        Senha:
+        <input name="form_senha" type="password" required>
+    </label>
+
+    <br>
+
+    <label>Qual o ano atual do seu Ensino Médio </label>
+
+     <br>
+
+<!-- No input radio os names devem ser iguais-->
+    <label>
+        <input name="form_em" value="1" type="radio" required>
+        1 EM
+    </label>
+
+    <br>
+
+    <label>
+        <input name="form_em" value="2" type="radio" required>
+        2 EM
+    </label>
+
+    <br>
+
+    <label>
+        <input name="form_em" value="3" type="radio" required>
+        3 EM
+
+    <br>
+
+    </label>
+
+    <br>
+    <br>
+
+    <label>Qual a sua carteira de motorista?</label>
+<br>
+    <label>
+        <input name="form_carro" type="checkbox" required>
+        Carro
+    </label>
+
+    <br>
+
+    <label>
+        <input name="form_moto" type="checkbox" required>
+        Moto
+    </label>
+
+    <br>
+    <br>
+
+    <label>
+        Comentario:
+        <textarea name="form_comentario" rows="10" cols="50"></textarea required>
+    </label>
+
+    <br>
+    <br>
+
+    <label>
+        Cidade
+        <select name="form_cidade" required>
+            <option value="guararapes">Guararapes</option>
+            <option value="aracatuba">Araçatuba</option>
+            <option value="valparaiso">Valparaíso</option>
+        </select>
+    </label>
+
+
+
+    <br>
+    <br>
+
+    <button type="submit">Salvar</button>
+    <button type="reset">Limpar</button>
+</body>
+</html>

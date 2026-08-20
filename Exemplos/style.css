@@ -1,0 +1,26 @@
+body {
+    background-color: palevioletred;
+}
+
+h1 {
+    color: azure;
+    text-align: center;
+    font-family: "Comic Sans MS"; sans-serif
+}
+/*haver é quando o mouse passa por cima*/
+h1:hover {
+    color: hotpink;
+}
+
+/* o ponto "." chama  a class */
+.atividade{
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: black 2px 5px;
+}
+
