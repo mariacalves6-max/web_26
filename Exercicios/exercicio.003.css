@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background: plum;
+}
+
+div {
+    width: 200px;
+    height: 100vh;
+    background-color: plum;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid white;
+    margin: 10px 0;
+}
+.nome {
+    width: 10%;
+    height: 100%;
+    border: none;
+    background: mediumslateblue;
+    color: lavender;
+    border-radius: 0;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.nomezinho {
+    width: 100px;
+    height: 70px;
+    background: plum;
+    color: white;
+    text-align: center;
+    margin: 30px 0;
+}
