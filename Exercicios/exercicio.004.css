@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: midnightblue;
+}
+
+.nome {
+    height: 200px;
+    width: 100%;
+    gap: 16px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.nomezinho {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 20px;
+    border: 3px solid white;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dias31 {
+    background-color: white;
+}
+
+.dias28 {
+    background-color: green;
+}
+
+.dias30 {
+    background-color: blue ;
+}
